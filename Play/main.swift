@@ -8,5 +8,8 @@
 
 import Foundation
 
-print("Hello, World!")
+var euler1 = Euler1()
 
+var anwser = euler1.run()
+
+print(anwser)
