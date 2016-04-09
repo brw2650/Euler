@@ -8,8 +8,8 @@
 
 import Foundation
 
-var euler1 = Euler1()
+var euler = Euler3()
 
-var anwser = euler1.run()
+var anwser = euler.run()
 
 print(anwser)
