@@ -10,7 +10,7 @@ import Foundation
 
 class Euler5 {
     
-    // Get the smarllest number that is divisable by one to twenty
+    // Get the smallest number that is divisable by one to twenty
     func run() -> Int {
         var smallest : Int? = nil
         
