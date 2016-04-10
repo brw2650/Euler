@@ -13,6 +13,8 @@
 		B5BAB7D01CBA4C2800914A9F /* Euler5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */; };
 		B5BAB7D21CBA626700914A9F /* Euler6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D11CBA626700914A9F /* Euler6.swift */; };
 		B5BAB7D41CBA675E00914A9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D31CBA675E00914A9F /* README.md */; };
+		B5BAB7D71CBA894D00914A9F /* Euler7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D61CBA894D00914A9F /* Euler7.swift */; };
+		B5BAB7D91CBA8D9200914A9F /* Euler8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D81CBA8D9200914A9F /* Euler8.swift */; };
 		B5EE16C41CB6FE560099E4B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE16C31CB6FE560099E4B4 /* main.swift */; };
 		B5EE16CB1CB7059C0099E4B4 /* Euler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */; };
 /* End PBXBuildFile section */
@@ -36,6 +38,8 @@
 		B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler5.swift; sourceTree = "<group>"; };
 		B5BAB7D11CBA626700914A9F /* Euler6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler6.swift; sourceTree = "<group>"; };
 		B5BAB7D31CBA675E00914A9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B5BAB7D61CBA894D00914A9F /* Euler7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler7.swift; sourceTree = "<group>"; };
+		B5BAB7D81CBA8D9200914A9F /* Euler8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler8.swift; sourceTree = "<group>"; };
 		B5EE16C01CB6FE550099E4B4 /* Play */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Play; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EE16C31CB6FE560099E4B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler1.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 				B5BAB7CD1CB9B51000914A9F /* Euler4.swift */,
 				B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */,
 				B5BAB7D11CBA626700914A9F /* Euler6.swift */,
+				B5BAB7D61CBA894D00914A9F /* Euler7.swift */,
+				B5BAB7D81CBA8D9200914A9F /* Euler8.swift */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -141,10 +147,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EE16C41CB6FE560099E4B4 /* main.swift in Sources */,
+				B5BAB7D71CBA894D00914A9F /* Euler7.swift in Sources */,
 				B5BAB7D01CBA4C2800914A9F /* Euler5.swift in Sources */,
 				B5BAB7CE1CB9B51000914A9F /* Euler4.swift in Sources */,
 				B57D4D5C1CB842C800A7F9DA /* Euler2.swift in Sources */,
 				B5BAB7D21CBA626700914A9F /* Euler6.swift in Sources */,
+				B5BAB7D91CBA8D9200914A9F /* Euler8.swift in Sources */,
 				B5EE16CB1CB7059C0099E4B4 /* Euler1.swift in Sources */,
 				B5BAB7D41CBA675E00914A9F /* README.md in Sources */,
 				B57D4D5E1CB844B300A7F9DA /* Euler3.swift in Sources */,
