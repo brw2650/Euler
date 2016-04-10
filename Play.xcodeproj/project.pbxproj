@@ -10,6 +10,7 @@
 		B57D4D5C1CB842C800A7F9DA /* Euler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D4D5B1CB842C800A7F9DA /* Euler2.swift */; };
 		B57D4D5E1CB844B300A7F9DA /* Euler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D4D5D1CB844B300A7F9DA /* Euler3.swift */; };
 		B5BAB7CE1CB9B51000914A9F /* Euler4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7CD1CB9B51000914A9F /* Euler4.swift */; };
+		B5BAB7D01CBA4C2800914A9F /* Euler5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */; };
 		B5EE16C41CB6FE560099E4B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE16C31CB6FE560099E4B4 /* main.swift */; };
 		B5EE16CB1CB7059C0099E4B4 /* Euler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,7 @@
 		B57D4D5B1CB842C800A7F9DA /* Euler2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler2.swift; sourceTree = "<group>"; };
 		B57D4D5D1CB844B300A7F9DA /* Euler3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler3.swift; sourceTree = "<group>"; };
 		B5BAB7CD1CB9B51000914A9F /* Euler4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler4.swift; sourceTree = "<group>"; };
+		B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler5.swift; sourceTree = "<group>"; };
 		B5EE16C01CB6FE550099E4B4 /* Play */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Play; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EE16C31CB6FE560099E4B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler1.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				B5EE16C31CB6FE560099E4B4 /* main.swift */,
 				B57D4D5B1CB842C800A7F9DA /* Euler2.swift */,
 				B5BAB7CD1CB9B51000914A9F /* Euler4.swift */,
+				B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -132,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5EE16C41CB6FE560099E4B4 /* main.swift in Sources */,
+				B5BAB7D01CBA4C2800914A9F /* Euler5.swift in Sources */,
 				B5BAB7CE1CB9B51000914A9F /* Euler4.swift in Sources */,
 				B57D4D5C1CB842C800A7F9DA /* Euler2.swift in Sources */,
 				B5EE16CB1CB7059C0099E4B4 /* Euler1.swift in Sources */,
