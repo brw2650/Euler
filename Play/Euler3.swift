@@ -27,7 +27,7 @@ class Euler3 {
         }
     
         // n must be odd at this point.  So we can skip one element (Note i = i +2)
-        for (var i = 3.0; i <= sqrt(n); i = i+2) {
+        for i in (3).stride(to: sqrt(n), by: +2) {
             // While i divides n, divide n
             while (n%i == 0) {
                 n = n/i
