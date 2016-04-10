@@ -15,6 +15,21 @@
 		B5BAB7D41CBA675E00914A9F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D31CBA675E00914A9F /* README.md */; };
 		B5BAB7D71CBA894D00914A9F /* Euler7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D61CBA894D00914A9F /* Euler7.swift */; };
 		B5BAB7D91CBA8D9200914A9F /* Euler8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D81CBA8D9200914A9F /* Euler8.swift */; };
+		B5BAB7DB1CBAC3B300914A9F /* Euler9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7DA1CBAC3B300914A9F /* Euler9.swift */; };
+		B5BAB7DD1CBAC55600914A9F /* Euler10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7DC1CBAC55600914A9F /* Euler10.swift */; };
+		B5BAB7DF1CBAC56C00914A9F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7DE1CBAC56C00914A9F /* Helpers.swift */; };
+		B5BAB7F21CBAC79C00914A9F /* EulerTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7F11CBAC79C00914A9F /* EulerTest.swift */; };
+		B5BAB7F41CBAC85200914A9F /* Euler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */; };
+		B5BAB7F51CBAC8C600914A9F /* Euler2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D4D5B1CB842C800A7F9DA /* Euler2.swift */; };
+		B5BAB7F61CBAC8C900914A9F /* Euler3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57D4D5D1CB844B300A7F9DA /* Euler3.swift */; };
+		B5BAB7F71CBAC8CB00914A9F /* Euler4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7CD1CB9B51000914A9F /* Euler4.swift */; };
+		B5BAB7F81CBAC8CE00914A9F /* Euler5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */; };
+		B5BAB7F91CBAC8D100914A9F /* Euler6.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D11CBA626700914A9F /* Euler6.swift */; };
+		B5BAB7FA1CBAC8D400914A9F /* Euler7.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D61CBA894D00914A9F /* Euler7.swift */; };
+		B5BAB7FB1CBAC8D700914A9F /* Euler8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7D81CBA8D9200914A9F /* Euler8.swift */; };
+		B5BAB7FC1CBAC8DA00914A9F /* Euler9.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7DA1CBAC3B300914A9F /* Euler9.swift */; };
+		B5BAB7FD1CBAC8DD00914A9F /* Euler10.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7DC1CBAC55600914A9F /* Euler10.swift */; };
+		B5BAB7FE1CBAC96300914A9F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BAB7DE1CBAC56C00914A9F /* Helpers.swift */; };
 		B5EE16C41CB6FE560099E4B4 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE16C31CB6FE560099E4B4 /* main.swift */; };
 		B5EE16CB1CB7059C0099E4B4 /* Euler1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */; };
 /* End PBXBuildFile section */
@@ -40,12 +55,25 @@
 		B5BAB7D31CBA675E00914A9F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B5BAB7D61CBA894D00914A9F /* Euler7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler7.swift; sourceTree = "<group>"; };
 		B5BAB7D81CBA8D9200914A9F /* Euler8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler8.swift; sourceTree = "<group>"; };
+		B5BAB7DA1CBAC3B300914A9F /* Euler9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler9.swift; sourceTree = "<group>"; };
+		B5BAB7DC1CBAC55600914A9F /* Euler10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler10.swift; sourceTree = "<group>"; };
+		B5BAB7DE1CBAC56C00914A9F /* Helpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		B5BAB7E91CBAC77800914A9F /* Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5BAB7ED1CBAC77900914A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5BAB7F11CBAC79C00914A9F /* EulerTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EulerTest.swift; sourceTree = "<group>"; };
 		B5EE16C01CB6FE550099E4B4 /* Play */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Play; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EE16C31CB6FE560099E4B4 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Euler1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B5BAB7E61CBAC77800914A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5EE16BD1CB6FE550099E4B4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -56,11 +84,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B5BAB7EA1CBAC77900914A9F /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				B5BAB7F11CBAC79C00914A9F /* EulerTest.swift */,
+				B5BAB7ED1CBAC77900914A9F /* Info.plist */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 		B5EE16B71CB6FE540099E4B4 = {
 			isa = PBXGroup;
 			children = (
 				B5BAB7D31CBA675E00914A9F /* README.md */,
 				B5EE16C21CB6FE550099E4B4 /* Play */,
+				B5BAB7EA1CBAC77900914A9F /* Test */,
 				B5EE16C11CB6FE550099E4B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				B5EE16C01CB6FE550099E4B4 /* Play */,
+				B5BAB7E91CBAC77800914A9F /* Test.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,15 +115,18 @@
 		B5EE16C21CB6FE550099E4B4 /* Play */ = {
 			isa = PBXGroup;
 			children = (
-				B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */,
-				B57D4D5D1CB844B300A7F9DA /* Euler3.swift */,
 				B5EE16C31CB6FE560099E4B4 /* main.swift */,
+				B5BAB7DE1CBAC56C00914A9F /* Helpers.swift */,
+				B5EE16CA1CB7059C0099E4B4 /* Euler1.swift */,
 				B57D4D5B1CB842C800A7F9DA /* Euler2.swift */,
+				B57D4D5D1CB844B300A7F9DA /* Euler3.swift */,
 				B5BAB7CD1CB9B51000914A9F /* Euler4.swift */,
 				B5BAB7CF1CBA4C2800914A9F /* Euler5.swift */,
 				B5BAB7D11CBA626700914A9F /* Euler6.swift */,
 				B5BAB7D61CBA894D00914A9F /* Euler7.swift */,
 				B5BAB7D81CBA8D9200914A9F /* Euler8.swift */,
+				B5BAB7DA1CBAC3B300914A9F /* Euler9.swift */,
+				B5BAB7DC1CBAC55600914A9F /* Euler10.swift */,
 			);
 			path = Play;
 			sourceTree = "<group>";
@@ -92,6 +134,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B5BAB7E81CBAC77800914A9F /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5BAB7EE1CBAC77900914A9F /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				B5BAB7E51CBAC77800914A9F /* Sources */,
+				B5BAB7E61CBAC77800914A9F /* Frameworks */,
+				B5BAB7E71CBAC77800914A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = B5BAB7E91CBAC77800914A9F /* Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B5EE16BF1CB6FE550099E4B4 /* Play */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5EE16C71CB6FE560099E4B4 /* Build configuration list for PBXNativeTarget "Play" */;
@@ -119,6 +178,9 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Ben Woods";
 				TargetAttributes = {
+					B5BAB7E81CBAC77800914A9F = {
+						CreatedOnToolsVersion = 7.3;
+					};
 					B5EE16BF1CB6FE550099E4B4 = {
 						CreatedOnToolsVersion = 7.3;
 					};
@@ -137,11 +199,41 @@
 			projectRoot = "";
 			targets = (
 				B5EE16BF1CB6FE550099E4B4 /* Play */,
+				B5BAB7E81CBAC77800914A9F /* Test */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		B5BAB7E71CBAC77800914A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B5BAB7E51CBAC77800914A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5BAB7F21CBAC79C00914A9F /* EulerTest.swift in Sources */,
+				B5BAB7FC1CBAC8DA00914A9F /* Euler9.swift in Sources */,
+				B5BAB7FB1CBAC8D700914A9F /* Euler8.swift in Sources */,
+				B5BAB7F81CBAC8CE00914A9F /* Euler5.swift in Sources */,
+				B5BAB7F71CBAC8CB00914A9F /* Euler4.swift in Sources */,
+				B5BAB7FA1CBAC8D400914A9F /* Euler7.swift in Sources */,
+				B5BAB7F51CBAC8C600914A9F /* Euler2.swift in Sources */,
+				B5BAB7FE1CBAC96300914A9F /* Helpers.swift in Sources */,
+				B5BAB7F91CBAC8D100914A9F /* Euler6.swift in Sources */,
+				B5BAB7F41CBAC85200914A9F /* Euler1.swift in Sources */,
+				B5BAB7F61CBAC8C900914A9F /* Euler3.swift in Sources */,
+				B5BAB7FD1CBAC8DD00914A9F /* Euler10.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B5EE16BC1CB6FE550099E4B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -151,10 +243,13 @@
 				B5BAB7D01CBA4C2800914A9F /* Euler5.swift in Sources */,
 				B5BAB7CE1CB9B51000914A9F /* Euler4.swift in Sources */,
 				B57D4D5C1CB842C800A7F9DA /* Euler2.swift in Sources */,
+				B5BAB7DB1CBAC3B300914A9F /* Euler9.swift in Sources */,
 				B5BAB7D21CBA626700914A9F /* Euler6.swift in Sources */,
 				B5BAB7D91CBA8D9200914A9F /* Euler8.swift in Sources */,
 				B5EE16CB1CB7059C0099E4B4 /* Euler1.swift in Sources */,
 				B5BAB7D41CBA675E00914A9F /* README.md in Sources */,
+				B5BAB7DF1CBAC56C00914A9F /* Helpers.swift in Sources */,
+				B5BAB7DD1CBAC55600914A9F /* Euler10.swift in Sources */,
 				B57D4D5E1CB844B300A7F9DA /* Euler3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +257,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		B5BAB7EF1CBAC77900914A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B5BAB7F01CBAC77900914A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bw.Test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B5EE16C51CB6FE560099E4B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -261,6 +378,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B5BAB7EE1CBAC77900914A9F /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5BAB7EF1CBAC77900914A9F /* Debug */,
+				B5BAB7F01CBAC77900914A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		B5EE16BB1CB6FE540099E4B4 /* Build configuration list for PBXProject "Play" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -12,16 +12,14 @@ class Euler1 {
     
     // Get the sum of all multiples of five and three under 1000
     func run() -> Int {
-        var x = 0
-        var threesAndFives = [Int]()
+        var ans = 0
         
-        while(x <= 1000){
-            if(x % 3 == 0 || x % 5 == 0){
-                threesAndFives.append(x);
+        for i in 0...999 {
+            if i % 3 == 0 || i % 5 == 0 {
+                ans += i
             }
-            x += 1;
         }
         
-        return threesAndFives.reduce(0, combine: +);
+        return ans;
     }
 }

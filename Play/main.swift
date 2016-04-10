@@ -8,7 +8,7 @@
 
 import Foundation
 
-var euler = Euler8()
+var euler = Euler10()
 
 var anwser = euler.run()
 

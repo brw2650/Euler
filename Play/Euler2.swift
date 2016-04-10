@@ -10,13 +10,13 @@ import Foundation
 
 class Euler2 {
     
-    // Get the sum of the even Fibonacci numbers under one million
+    // Get the sum of the even Fibonacci numbers under four million
     func run() -> Int {
         var current = 1
         var minusOne = 1
         var evenNumbers = [Int]()
         
-        while(current <= 1000000){
+        while(current <= 4000000){
             if(current % 2 == 0){
                 evenNumbers.append(current)
             }

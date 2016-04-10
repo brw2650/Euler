@@ -17,7 +17,7 @@ class Euler7 {
         var prime : Int? = nil
         
         while primeCount < 10001 {
-            if isPrime(number) {
+            if Helpers.isPrime(number) {
                 primeCount += 1
                 prime = number
             }
@@ -28,15 +28,5 @@ class Euler7 {
         
     }
     
-    private func isPrime(x:Int) -> Bool {
-        if x == 2 {
-            return true //bit of a hack
-        }
-        for i in 2...x-1 {
-            if x % i == 0 {
-                return false
-            }
-        }
-        return true
-    }
+
 }
